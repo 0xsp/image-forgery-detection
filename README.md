@@ -5,7 +5,7 @@ Detects the authenticity of an image using Error Level Analysis and Convolutiona
 ## Introduction
 
 ### Error Level Analysis
- > Error Level Analysis is an image feature extraction technique. JPEG is a lossy compression format and hence the pixels in the images stored in that format tend to be downsampled from which they are captured initially. Although the compression ratio varies with different camera models, the image's overall compression ratio tends to be uniform. When an authentic image is loaded into an image editing software, tampered and then stored again in JPG format, the pixels where the image has been tampered will have distinct compression artifacts relative to the adjacent pixels. These compression artifacts can be analysed to detect the presence of image tampering.  
+ > Error Level Analysis is an image feature extraction technique. JPEG is a lossy compression format and hence the pixels in the images stored in that format tend to be downsampled from which they are captured initially. When an authentic image is loaded into an image editing software, tampered and then stored again in JPG format, the pixels where the image has been tampered will have distinct compression artifacts relative to the adjacent pixels. These compression artifacts can be analysed to detect the presence of image tampering.  
 
 ### Convolutional Neural Network
  > A Convolutional Neural Network(ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance(learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.
