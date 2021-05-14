@@ -10,8 +10,24 @@ Detects the authenticity of an image using Error Level Analysis and Convolutiona
 ### Convolutional Neural Network
  > A Convolutional Neural Network(ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance(learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.
 
+## Setup and Usage
+
+1. Upgrade pip.
+2. Install the following py modules
+
+    * ```keras```
+    * ```numpy```
+    * ```pillow```
+    * ```pyqt5```
+3. Clone this repo to your local machine.
+4. Run the ```ui.py``` file.
+5. Browse an image from your local machine and test it.
+
 ## Dataset
 [Casia dataset - Kaggle](https://www.kaggle.com/sophatvathana/casia-dataset)
 * Total Images : 11129
 * Authentic images : 8144
 * Forged images : 2985
+
+## Reference  
+[FotoForensics](https://fotoforensics.com/)
